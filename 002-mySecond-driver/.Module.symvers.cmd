@@ -1,1 +1,0 @@
-savedcmd_/home/ibrahim/deviceDriver/001-myfirstdruver/Module.symvers :=  scripts/mod/modpost -m -a      -o /home/ibrahim/deviceDriver/001-myfirstdruver/Module.symvers -T /home/ibrahim/deviceDriver/001-myfirstdruver/modules.order -i Module.symvers -e 
