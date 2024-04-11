@@ -80,4 +80,10 @@ sudo rmmod hello
 dmesg
 ```
 it will print **``Goodbye, world``** so it's the function executed when the driver removed from the kernel.
-
+#### Note: 
+you have to put **\n** in **``printk()``** function
+> Using **\n** in **printk()** ensures each log message appears on a new line in the kernel log file.
+>
+> Omitting **\n** may cause subsequent log messages to concatenate, making it hard to read the log file with dmesg.
+>
+> Including **\n** maintains clear and organized log output, aiding in effective debugging and system monitoring.
