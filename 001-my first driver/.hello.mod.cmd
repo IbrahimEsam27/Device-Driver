@@ -1,1 +1,0 @@
-savedcmd_/home/ibrahim/deviceDriver/002-mysecond_driver/hello.mod := printf '%s\n'   hello.o | awk '!x[$$0]++ { print("/home/ibrahim/deviceDriver/002-mysecond_driver/"$$0) }' > /home/ibrahim/deviceDriver/002-mysecond_driver/hello.mod

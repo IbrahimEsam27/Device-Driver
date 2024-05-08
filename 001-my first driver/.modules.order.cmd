@@ -1,1 +1,0 @@
-savedcmd_/home/ibrahim/deviceDriver/002-mysecond_driver/modules.order := {   echo /home/ibrahim/deviceDriver/002-mysecond_driver/hello.o; :; } > /home/ibrahim/deviceDriver/002-mysecond_driver/modules.order
